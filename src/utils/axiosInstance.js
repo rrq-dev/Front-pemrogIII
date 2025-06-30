@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Buat instance axios
 const axiosInstance = axios.create({
-  baseURL: "http://127.0.0.1:6969/api",
+  baseURL: "https://backend-pemrogiii.onrender.com/api",
 });
 
 // Interceptor REQUEST – tambah token secara otomatis
